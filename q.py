@@ -1,0 +1,5 @@
+import base64
+
+kode_enkripsi = b'amF3YWJhbm55YSA9IGlucHV0KCIxKzE9XG4iKQppZiBqYXdhYmFubnlhID09ICIyIjoKICBwcmludCgiU2VsYW1hdCBhbmRhIGJlbnVsIikKZWxzZToKICBwcmludCgiS291IGluaSBtYWhsaWsgYXBhIGhhIikK'
+kode_asli = base64.b64decode(kode_enkripsi).decode('utf-8')
+exec(kode_asli)
