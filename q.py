@@ -1,5 +1,8 @@
-import base64
-
-kode_enkripsi = b'amF3YWJhbm55YSA9IGlucHV0KCIxKzE9XG4iKQppZiBqYXdhYmFubnlhID09ICIyIjoKICBwcmludCgiU2VsYW1hdCBhbmRhIGJlbnVsIikKZWxzZToKICBwcmludCgiS291IGluaSBtYWhsaWsgYXBhIGhhIikK'
-kode_asli = base64.b64decode(kode_enkripsi).decode('utf-8')
-exec(kode_asli)
+ngising = input("Apakah anda kebelet berak? (hooh/tak)\ncontainer@pikok:")
+if ngising == "hooh":
+  kmr_mnd = input("Apakah kamar mandinya sedang digunakan/sedang dalam perbaikan? (hooh/tak)\ncontainer@pikok:")
+  if kmr_mnd == "hooh":
+    print("Ngeden aja dulu wak (⁠≧⁠▽⁠≦⁠)")
+  else:
+    print("Bemrak ajah")
+    
